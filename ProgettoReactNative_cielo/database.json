@@ -1,0 +1,130 @@
+{
+  "voli": [
+    {
+      "id": 1,
+      "codice": "AZ",
+      "partenza": "Roma",
+      "arrivo": "Parigi",
+      "ora_partenza": "08:00",
+      "ora_arrivo": "10:00"
+    },
+    {
+      "id": 2,
+      "codice": "AF",
+      "partenza": "Berlino",
+      "arrivo": "Roma",
+      "ora_partenza": "09:00",
+      "ora_arrivo": "11:00"
+    },
+    {
+      "id": 3,
+      "codice": "LH",
+      "partenza": "Parigi",
+      "arrivo": "Londra",
+      "ora_partenza": "10:00",
+      "ora_arrivo": "12:30"
+    },
+    {
+      "id": 4,
+      "codice": "AF",
+      "partenza": "Berlino",
+      "arrivo": "Parigi",
+      "ora_partenza": "11:00",
+      "ora_arrivo": "13:00"
+    },
+    {
+      "id": 5,
+      "codice": "AZ",
+      "partenza": "Londra",
+      "arrivo": "Roma",
+      "ora_partenza": "12:00",
+      "ora_arrivo": "14:30"
+    },
+    {
+      "id": 6,
+      "codice": "AZ",
+      "partenza": "Parigi",
+      "arrivo": "Londra",
+      "ora_partenza": "13:00",
+      "ora_arrivo": "14:30"
+    },
+    {
+      "id": 7,
+      "codice": "AF",
+      "partenza": "Londra",
+      "arrivo": "Berlino",
+      "ora_partenza": "13:30",
+      "ora_arrivo": "15:00"
+    },
+    {
+      "id": 8,
+      "codice": "LH",
+      "partenza": "Parigi",
+      "arrivo": "Roma",
+      "ora_partenza": "14:00",
+      "ora_arrivo": "16:00"
+    },
+    {
+      "id": 9,
+      "codice": "AZ",
+      "partenza": "Londra",
+      "arrivo": "Parigi",
+      "ora_partenza": "15:00",
+      "ora_arrivo": "16:30"
+    },
+    {
+      "id": 10,
+      "codice": "LH",
+      "partenza": "Berlino",
+      "arrivo": "Londra",
+      "ora_partenza": "16:00",
+      "ora_arrivo": "17:30"
+    }
+  ],
+  "compagnie": [
+    {
+      "id": 1,
+      "nome": "Alitalia",
+      "codice": "AZ",
+      "paese": "Italia"
+    },
+    {
+      "id": 2,
+      "nome": "Air France",
+      "codice": "AF",
+      "paese": "Francia"
+    },
+    {
+      "id": 3,
+      "nome": "Lufthansa",
+      "codice": "LH",
+      "paese": "Germania"
+    }
+  ],
+  "aeroporti": [
+    {
+      "codice": "FCO",
+      "nome": "Aeroporto di Roma-Fiumicino",
+      "citta": "Roma",
+      "nazione": "Italia"
+    },
+    {
+      "codice": "BER",
+      "nome": "Aeroporto di Berlino-Brandeburgo",
+      "citta": "Berlino",
+      "nazione": "Germania"
+    },
+    {
+      "codice": "CDG",
+      "nome": "Aeroporto di Parigi-Charles de Gaulle",
+      "citta": "Parigi",
+      "nazione": "Francia"
+    },
+    {
+      "codice": "LHR",
+      "nome": "Aeroporto di Londra-Heathrow",
+      "citta": "Londra",
+      "nazione": "Regno Unito"
+    }
+  ]
+}
