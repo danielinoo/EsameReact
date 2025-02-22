@@ -48,7 +48,7 @@ Sito voli è un'applicazione React Native che consente agli utenti di cercare vo
    ```
 3. Avviare l'app ProgettoReactNative_cielo:
    ```bash
-   npm run web (opure npm run android / npm run ios)
+   npm run web (oppure npm run android / npm run ios)
    ```
 Il backend sarà attivo su `http://127.0.0.1:5004`.
 
