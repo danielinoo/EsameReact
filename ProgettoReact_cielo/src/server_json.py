@@ -6,18 +6,15 @@ from flask_cors import CORS
 api = Flask(__name__)
 
 CORS(api)
-#http://127.0.0.1:5004/
 
 
 
-@api.route("/", methods=['GET'])
-def lesgosky():
-     return "<p> bello zi </p>"
+
 
 
 @api.route('/voli', methods=['GET'])
 def visualizza_volo():
-        # Carica il contenuto del file JSON
+        
     with open('database.json', 'r') as file:
         data = json.load(file)  # Carica i dati JSON nel dizionario Python
     # Restituisci solo la sezione dei voli
@@ -27,9 +24,9 @@ def visualizza_volo():
 @api.route('/visualizza_aeroporti', methods=['GET'])
 def visualizza_aeroporti():
     with open('database.json', 'r') as file:
-        data = json.load(file)  # Carica i dati JSON nel dizionario Python
+        data = json.load(file) 
     
-    # Restituisci solo la sezione dei voli
+    
     return jsonify(data['aeroporti'])  # Restituisce solo la lista dei voli
 
  
@@ -37,10 +34,9 @@ def visualizza_aeroporti():
 @api.route('/visualizza_compagnie', methods=['GET'])
 def visualizza_compagnie():
     with open('database.json', 'r') as file:
-        data = json.load(file)  # Carica i dati JSON nel dizionario Python
+        data = json.load(file) 
     
-    # Restituisci solo la sezione dei voli
-    return jsonify(data['compagnie'])  # Restituisce solo la lista dei voli
+    return jsonify(data['compagnie'])  
 
 
 
@@ -48,7 +44,7 @@ def visualizza_compagnie():
 @api.route('/RicercaVolo', methods=['POST'])
 def queryRicercaVolo():
     with open('database.json', 'r') as file:
-        data = json.load(file)  # Carica i dati JSON nel dizionario Python
+        data = json.load(file)  
 
     partenza = request.get_json().get('partenza')
     arrivo = request.get_json().get('arrivo')
