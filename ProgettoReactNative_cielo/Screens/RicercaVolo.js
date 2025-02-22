@@ -6,9 +6,9 @@ import { SafeAreaView, ScrollView } from 'react-native-web';
 const RicercaVolo = () => {
   const [partenza, setPartenza] = useState('');
   const [arrivo, setArrivo] = useState('');
-  const [data, setData] = useState([]); // Store the flight data
-  const [vis, setVis] = useState(false);  // Visibility of the results
-  const [nessunRisultato, setNessunRisultato] = useState(false);  // No results flag
+  const [data, setData] = useState([]); // dati del rsultato
+  const [vis, setVis] = useState(false);  // visibilita del risultato 
+  const [nessunRisultato, setNessunRisultato] = useState(false);  // xontrollo del risultato
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -39,9 +39,9 @@ const RicercaVolo = () => {
       });
   };
 
-  // Get screen width for responsiveness
+  // dimensione dello schermo per i dispositivi mobili
   const { width } = Dimensions.get('window');
-  const isMobile = width <= 768; // Check if the screen is smaller than or equal to 768px
+  const isMobile = width <= 768; 
 
   return (
     

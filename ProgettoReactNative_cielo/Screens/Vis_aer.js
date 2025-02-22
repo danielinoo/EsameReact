@@ -13,7 +13,7 @@ const Vis_Aer = () => {
       .catch(error => console.error(error)); 
   }, []);
 
-  // Render the list of airports
+ 
   return (
 
 

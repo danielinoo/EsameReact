@@ -15,10 +15,10 @@ const Vis_volo = () => {
   }, []);
 
   return (
-    <SafeAreaView style={styles.container}>  {/* Usa SafeAreaView invece di View */}
+    <SafeAreaView style={styles.container}>  
       <Text style={styles.heading}>Dati dei voli:</Text>
 
-      {/* Intestazione della tabella */}
+
       <View style={styles.tableHeader}>
         <Text style={[styles.cell, styles.tableHeaderCell]}>Codice volo</Text>
         <Text style={[styles.cell, styles.tableHeaderCell]}>Partenza</Text>
@@ -96,10 +96,6 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   
-  // Responsività per schermi piccoli
-  
-  
-  // Stili responsivi per schermi piccoli
   mobileCell: {
     fontSize: 14, // Riduci la dimensione del testo su schermi piccoli
   },

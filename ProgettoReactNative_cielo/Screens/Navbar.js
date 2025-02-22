@@ -1,23 +1,23 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
-import { useNavigation } from '@react-navigation/native'; // Hook for navigation
+import { useNavigation } from '@react-navigation/native'; 
 
 const Navbar = () => {
-  const navigation = useNavigation(); // Use navigation hook
+  const navigation = useNavigation(); 
 
-  const { width } = Dimensions.get('window'); // Get the screen width
+  const { width } = Dimensions.get('window'); // ottiene la larghezza dello schermo
 
-  // Check if the screen size is small (mobile or tablet)
+  // per i dispositivi mobili
   const isMobile = width <= 768;
 
   return (
     <View style={[styles.navbar, isMobile && styles.mobileNavbar]}>
-      {/* Logo section */}
+
       <View style={styles.logo}>
         <Text style={styles.logoText}>Sito voli</Text>
       </View>
 
-      {/* Navigation links */}
+      
       <View style={[styles.navLinks, isMobile && styles.mobileNavLinks]}>
         <TouchableOpacity onPress={() => navigation.navigate('Home')}>
           <Text style={styles.navLink}>Home</Text>
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     top: 0,
     left: 0,
     right: 0,
-    zIndex: 10, // Ensures the navbar is on top of other content
+    zIndex: 10,
     
   },
   logo: {
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
   },
   navLinks: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexWrap: 'wrap',
+    justifyContent: 'center', 
     width: '60%',
   },
   navLink: {
@@ -75,19 +76,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     paddingVertical: 10,
-    paddingHorizontal: 20,
+    paddingHorizontal: 10,
     textAlign: 'center',
+    margin: 5,
+    minWidth: '40%', 
   },
-  // Responsivity for mobile devices
+ 
   mobileNavbar: {
     flexDirection: 'column',
     paddingVertical: 10,
   },
   mobileNavLinks: {
-    flexDirection: 'column',
+    flexDirection: 'row',
+    flexWrap: 'wrap', 
+    justifyContent: 'center',
     width: '100%',
-    alignItems: 'center', // Center the nav items
-    gap: 15, // Space between links
   },
 });
 

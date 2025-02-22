@@ -14,12 +14,12 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      {/* Wrapper for the whole app */}
+      
       <SafeAreaView style={styles.container}>
-        {/* Navbar component */}
+        {/* Navbar componenti */}
         <Navbar />
 
-        {/* Stack navigator for routes */}
+      
         <Stack.Navigator initialRouteName= "Home">
           <Stack.Screen name = "Home" component={HomeScreen} />
           <Stack.Screen name="RicercaVolo" component={RicercaVolo} />
@@ -35,7 +35,7 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f0f0f0', // Light background color
+    backgroundColor: '#f0f0f0', 
   },
 });
 
