@@ -55,7 +55,7 @@ Il backend sarà attivo su `http://127.0.0.1:5004`.
 
 ### Clonare il repository
 ```sh
-git clone https://github.com/danielinoo/EsameWeb2React.git
+git clone https://github.com/danielinoo/EsameReact.git
 cd ProgettoReactNative_cielo
 
 
