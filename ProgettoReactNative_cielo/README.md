@@ -53,7 +53,7 @@ Sito voli è un'applicazione React Native che consente agli utenti di cercare vo
 Il backend sarà attivo su `http://127.0.0.1:5004`.
 
 
-### 2️⃣ Clonare il repository
+### Clonare il repository
 ```sh
 git clone https://github.com/danielinoo/EsameWeb2React.git
 cd ProgettoReactNative_cielo

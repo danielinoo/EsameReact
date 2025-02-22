@@ -61,7 +61,7 @@ Il backend sarà attivo su `http://127.0.0.1:5004`.
 - **Backend**: Flask, Flask-CORS
 - **Database**: JSON file per la gestione dei dati
 
-### 2️⃣ Clonare il repository
+###  Clonare il repository
 ```sh
 git clone https://github.com/danielinoo/EsameWeb2React.git
 cd ProgettoReact_cielo
