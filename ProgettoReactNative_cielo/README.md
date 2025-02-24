@@ -27,6 +27,14 @@ Sito voli è un'applicazione React Native che consente agli utenti di cercare vo
 - **Node.js** e **npm** per il frontend
 - **Python** e **Flask** per il backend
 
+###  Clonare il repository
+```sh
+git clone https://github.com/danielinoo/EsameReact.git
+```
+```sh
+cd ProgettoReact_cielo
+```
+
 ### Avvio del backend
 1. Installare Flask e le dipendenze:
    ```bash
@@ -53,10 +61,6 @@ Sito voli è un'applicazione React Native che consente agli utenti di cercare vo
 Il backend sarà attivo su `http://127.0.0.1:5004`.
 
 
-### Clonare il repository
-```sh
-git clone https://github.com/danielinoo/EsameReact.git
-cd ProgettoReactNative_cielo
 
 
 

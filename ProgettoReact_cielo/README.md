@@ -31,6 +31,14 @@ Il backend fornisce le API per recuperare e gestire i dati relativi ai voli, com
 - **Node.js** e **npm** per il frontend
 - **Python** e **Flask** per il backend
 
+###  Clonare il repository
+```sh
+git clone https://github.com/danielinoo/EsameReact.git
+```
+```sh
+cd ProgettoReact_cielo
+```
+
 ### Avvio del backend
 1. Installare Flask e le dipendenze:
    ```bash
@@ -61,9 +69,5 @@ Il backend sarà attivo su `http://127.0.0.1:5004`.
 - **Backend**: Flask, Flask-CORS
 - **Database**: JSON file per la gestione dei dati
 
-###  Clonare il repository
-```sh
-git clone https://github.com/danielinoo/EsameReact.git
-cd ProgettoReact_cielo
 
 
