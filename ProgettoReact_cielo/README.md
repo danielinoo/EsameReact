@@ -48,6 +48,7 @@ cd ProgettoReact_cielo
    ```bash
    python server_json.py
    ```
+Il backend sarà attivo su `http://127.0.0.1:5004`.
 
 ### Avvio del frontend
 1. Dentro la cartella del frontend:
@@ -62,7 +63,7 @@ cd ProgettoReact_cielo
    ```bash
    npm run dev
    ```
-Il backend sarà attivo su `http://127.0.0.1:5004`.
+
 
 ## Tecnologie Utilizzate
 - **Frontend**: React.js, React Router
