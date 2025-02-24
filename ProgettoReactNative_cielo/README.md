@@ -32,7 +32,7 @@ Sito voli è un'applicazione React Native che consente agli utenti di cercare vo
 git clone https://github.com/danielinoo/EsameReact.git
 ```
 ```sh
-cd ProgettoReact_cielo
+cd ProgettoReactNative_cielo
 ```
 
 ### Avvio del backend
