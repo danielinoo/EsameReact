@@ -44,7 +44,7 @@ cd ProgettoReactNative_cielo
    ```bash
    python server_json.py
    ```
-Il backend sarà attivo su `http://127.0.0.1:5004`.
+
 
 ### Avvio del frontend
 1. Dentro la cartella del frontend:
