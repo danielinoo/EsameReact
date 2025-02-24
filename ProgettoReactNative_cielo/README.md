@@ -57,8 +57,9 @@ Il backend sarà attivo su `http://127.0.0.1:5004`.
    ```
 3. Avviare l'app ProgettoReactNative_cielo:
    ```bash
-   npm run web (oppure npm run android / npm run ios)
+   npm run web
    ```
+   (oppure npm run android / npm run ios)
 
 
 
